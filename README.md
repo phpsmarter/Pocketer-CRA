@@ -1,5 +1,6 @@
 # Pocketer-CRA
 > 本项目有三个部分:
+> 
 > 1.  爬虫获取资源,在使用mongoose在mlab数据库存储数据
 > 2.  使用mlab的数据构建 graphql-server
 > 3.  CRA客户端使用 Apollo-client从graphql-server获取数据
@@ -112,9 +113,9 @@ AppRegistry.runApplication("App", { rootTag: document.getElementById("root") });
 
 ###  页面组件中的查询操作
 
-1.引入工具
-2.定义查询schema
-3.编写组件
+1. 引入工具
+2. 定义查询schema
+3. 编写组件
 
 由于apollo-client已经封装了请求数据的状态,可以根据查询的状态返回不同的组件
 
